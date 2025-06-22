@@ -339,3 +339,41 @@
 
 /* € */
 #define DE_EURO (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_E)))
+
+/* Adjustments for Mac layout, simply uncomment if needed */
+
+// /* @ - On Mac (German), @ is usually Alt (Right Option) + L */
+// #undef DE_AT_SIGN
+// #define DE_AT_SIGN (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_L)))
+
+// /* [ - On Mac (German), [ is Alt + 5 */
+// #undef DE_LEFT_BRACKET
+// #define DE_LEFT_BRACKET (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_5_AND_PERCENT)))
+
+// /* ] - On Mac (German), ] is Alt + 6 */
+// #undef DE_RIGHT_BRACKET
+// #define DE_RIGHT_BRACKET (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_6_AND_CARET)))
+
+// /* { - On Mac (German), { is Alt + 8 */
+// #undef DE_LEFT_BRACE
+// #define DE_LEFT_BRACE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK)))
+
+// /* } - On Mac (German), } is Alt + 9 */
+// #undef DE_RIGHT_BRACE
+// #define DE_RIGHT_BRACE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS)))
+
+// /* \ - On Mac (German), \ is Alt + Shift + 7 */
+// #undef DE_BACKSLASH
+// #define DE_BACKSLASH (RA(LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND))))
+
+// /* | - On Mac (German), | is Alt + 7 */
+// #undef DE_PIPE
+// #define DE_PIPE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND)))
+
+// /* ~ - On Mac (German), ~ is Alt + N */
+// #undef DE_TILDE
+// #define DE_TILDE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_N)))
+
+// /* ~ - On Mac (German), ~ is Alt + N */
+// #undef DE_TILDE
+// #define DE_TILDE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_N)))
